@@ -1,0 +1,82 @@
+STARTING WARZONE..........
+
+
+=======Startup Phase=======
+
+
+Command Entered: loadmap canada 1
+
+Command Entered: editmap canada 1
+Log: canada already exists and is loaded for editing
+
+Command Entered: savemap canada 1
+Log: Validating Map......
+
+Command Entered: savegame hello.txt 1
+Log: Game Saved Successfully to hello.txt
+
+Command Entered: save game hello.txt 1
+Log: Advance Order : advance Country1 Country2 10 is not executed as armies given in advance order exceeds armies of source country : Country1
+Log: Advance Order : advance Country2 Country4 3 is not executed since Source country : Country2 given in advance command does not belongs to the player : Sumit
+Log: Advance Order : advance Country2 Country5 5 is not executed since Source country : Country2 given in advance command does not belongs to the player : Sumit
+Log: Airlift from Country0 to Country1 is a success!
+Log: Invalid Target Country! Not on the map!
+Log: Blockade card order : blockade Country2 is not executed since Target country : Country2 given in blockade command does not owned to the player : Sumit The card will have no affect and you don't get the card back.
+Log: 
+Player : Sumit is executing defensive blockade on Country :  Country1 with armies :  15
+Log: 
+Player : Sumit is executing Bomb card on country :  India with armies :  4. New armies: 2
+Log: 
+Player : Sumit is executing Bomb card on country :  China with armies :  15. New armies: 7
+Log: 
+Player : Sumit is executing Bomb card on country :  Canada with armies :  1. New armies: 0
+Log: Bomb card order : bomb Ukraine is not executed since Target country : Ukraine given in bomb command is owned by the player : Sumit VALIDATES:- You are not allowed to use the bomb on your own territory!
+Log: 12 armies have been deployed successfully on country : Russia
+Log: Negotiation with Darshan approached by Sumit successful!
+Log: Negotiation with Darshan approached by Sumit successful!
+Log: Advance Command cannot be executed as Player:Darshan negotiated terms with Player:Sumit
+Log: Negotiation with Darshan approached by Sumit successful!
+Log: Bomb Command cannot be executed as Player:Darshan negotiated terms with Player:Sumit
+Log: Invalid Strategy passed in command. Only Aggressive, Benevolent, Random, Cheater strategies are allowed.
+Log: canada has been loaded to start the game
+Log: Player:  a with strategy: Aggressive has been added in tournament.
+Log: Player:  b with strategy: Random has been added in tournament.
+Log: Oops! It looks like the number of games provided is not valid, Range of games :- 1<=number of games<=5
+Log: User entered invalid number of turns in command, Range of turns :- 10<=number of turns<=50
+Log: User entered invalid number of maps in command, Range of map :- 1<=map<=5
+Log: Continent Europe added successfully!
+Log: Country Swiss added successfully!
+Log: Country Norway added successfully!
+Log: Continent Europe added successfully!
+Log: Country Swiss added successfully!
+Log: Country Swiss removed successfully!
+Log: Continent Asia added successfully!
+Log: Continent Europe added successfully!
+Log: Continent Asia added successfully!
+Log: Continent Asia removed successfully!
+Log: Country Country7 added successfully!
+Log: Country Country8 added successfully!
+Log: Continent testContinentD added successfully!
+Log: Country testCountry11 added successfully!
+Log: Country testCountry12 added successfully!
+Log: Neighbour Pair testCountry11 testCountry12 added successfully!
+Log: Neighbour Pair testCountry11 testCountry12 removed successfully!
+Log: Country Country4 removed successfully!
+Log: Country Country5 removed successfully!
+Log: Continent Continent1 added successfully!
+Log: Continent testContinent added successfully!
+Log: Country testCountry1 added successfully!
+Log: Country testCountry2 added successfully!
+Log: Country testCountry3 added successfully!
+Log: Country testCountry4 added successfully!
+Log: Neighbour Pair testCountry1 testCountry2 added successfully!
+Log: Neighbour Pair testCountry3 testCountry4 added successfully!
+Log: Continent Continent1 removed successfully!
+Log: test-wholemap already exists and is loaded for editing
+Log: Player with name : Sumit and strategy: Aggressive has been added successfully.
+Log: Player: Sumit has been removed successfully.
+Log: Player with name : Sumit and strategy: Cheater has been added successfully.
+Log: Player with name : Darshan and strategy: Random has been added successfully.
+Log: Player with name : Sumit and strategy: Random has been added successfully.
+Log: Player with name : Darshan and strategy: Random has been added successfully.
+Log: Allocation of Country/Continent:

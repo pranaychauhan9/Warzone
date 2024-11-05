@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>warzone</groupId>
+    <artifactId>warzone-game</artifactId>
+    <version>1.0</version>
+    <build>
+        <plugins>
+            <plugin>
+                <!--https://maven.apache.org/plugins/maven-checkstyle-plugin/-->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>3.1.2</version>
+                <configuration>
+                    <configLocation>checkstyle.xml</configLocation>
+                    <encoding>UTF-8</encoding>
+                    <consoleOutput>true</consoleOutput>
+                    <failsOnError>true</failsOnError>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>9</source>
+                    <target>9</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.3.1</version> <!-- Use the appropriate version -->
+                <configuration>
+                    <!-- Specify the custom output directory for Javadoc -->
+                    <reportOutputDirectory>${project.basedir}/documentation/javadoc</reportOutputDirectory>
+                    <doclint>all</doclint>
+                </configuration>
+             </plugin>
+        </plugins>
+    </build>
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.davidmoten</groupId>
+            <artifactId>word-wrap</artifactId>
+            <version>0.1.9</version>
+        </dependency>
+    </dependencies>
+</project>
